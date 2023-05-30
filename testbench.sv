@@ -16,6 +16,9 @@ module tb;
 
  initial begin
     run_test("base_test");
+
+    //configuration
+
  end
 
 endmodule
