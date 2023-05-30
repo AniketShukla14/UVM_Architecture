@@ -1,5 +1,6 @@
 class environment extends uvm_env;
 
+    `uvm_component_utils(environment)
     my_scb scb;
     agent agnt;
 
